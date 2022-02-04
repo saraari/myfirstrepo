@@ -64,3 +64,65 @@
     position: relative;
     top: 200px;
 }
+
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+
+  .profilepic {
+    width: 500px;
+    height: 650px;
+  }  
+
+  /* img{
+    width: 600px;
+    height: 750px;
+  } */
+
+.fourImages {
+  position: absolute;
+  left: 600px;
+  top:-300px;
+}
+  
+  .ampic {
+        width: 200px;
+        height: 250px;
+        position: absolute;
+        left: -1px;
+        top: 450px;
+        z-index: -1;
+      }
+      
+      .respic {
+        width: 200px;
+        height: 250px;
+        position: absolute;
+        left: 190px;
+        top: 450px;
+        border: 1px solid #555;
+        z-index: -1;
+      }
+      .refpic{
+        width: 200px;
+        height: 250px;
+        position: absolute;
+        top: 650px;
+        border: 1px solid #555;
+        z-index: -1;
+      }
+      
+      
+      .actpic{
+        width: 200px;
+        height: 250px;
+        position: absolute;
+        left: 210px;
+        top: 700px;
+        border: 1px solid #555;
+        z-index: -1;
+      }
+
+
+
+}
