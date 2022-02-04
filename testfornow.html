@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+<!-- This is the CSS-->
+<style>
+.hotLinkImage {
+  position: absolute;
+  left: 20px;
+  top: 0px;
+  z-index: -1;
+}
+.one {
+  position: absolute;
+  left: 200px;
+  top: 20px;
+  border: 1px solid #555;
+  z-index: -1;
+}
+
+.two {
+  position: absolute;
+  left: 290px;
+  top: 30px;
+  border: 1px solid #555;
+  z-index: -1;
+}
+.three{
+  position: absolute;
+  left: 290px;
+  top: 130px;
+  border: 1px solid #555;
+  z-index: -1;
+}
+
+
+.four {
+  position: absolute;
+  left: 200px;
+  top: 120px;
+  border: 1px solid #555;
+  z-index: -1;
+}
+
+.titleText, .explanation {
+color:white;
+}
+
+.explanation {
+color:green;
+}
+
+
+</style>
+
+
+</head>
+<body>
+
+<!--This is the html-->
+<h1 class="titleText" >Sara's Stacked Images</h1>
+
+<img class="hotLinkImage" src="https://www.royaltyfreestudios.com/images/studio_guitars.jpg" width="220">
+
+<img class="one" src="https://www.royaltyfreestudios.com/images/studio_mic.jpg" "1st" width="100" height="140">
+<img class="two" src="https://www.royaltyfreestudios.com/images/studio_mic.jpg" "1st" width="100" height="140">
+<img class="three" src="https://www.royaltyfreestudios.com/images/studio_mic.jpg" "1st" width="100" height="140">
+<img class="four" src="https://www.royaltyfreestudios.com/images/studio_mic.jpg" "1st" width="100" height="140">
+
+
+<p class="explanation">Because the image has a z-index of -1, it will be placed behind the heading.</p>
+
+</body>
+</html>

@@ -1,13 +1,66 @@
-.firstClass {
-    color:aqua;
-}
-.subheaders {
-    color:blue;
-}
+.ampic {
+    width: 200px;
+    height: 250px;
+    
+  }
+  
+  .respic {
+    width: 200px;
+    height: 250px;
+    position: absolute;
+    left: 190px;
+    top: 450px;
+    border: 1px solid #555;
+    z-index: -1;
+  }
+  .refpic{
+    width: 200px;
+    height: 250px;
+    position: absolute;
+    top: 650px;
+    border: 1px solid #555;
+    z-index: -1;
+  }
+  
+  
+  .actpic{
+    width: 200px;
+    height: 250px;
+    position: absolute;
+    left: 210px;
+    top: 700px;
+    border: 1px solid #555;
+    z-index: -1;
+  }
 
-.dwsImg {
-    max-width: 20%;
+  /* text spacing */
+
+  .amtext {
+      position: relative;
+      left: 60px;
+      top: 30px;
+  }
+  .restext {
+    position: relative;
+    left: 260px;
+    top: -220px;
 }
-h1 {
-    text-align: center;
+.reftext {
+    position: relative;
+    left: 60px;
+    
+}
+.acttext {
+    position: relative;
+    left: 260px;
+    top: -1px;
+}
+/* about me section on homepage */
+.amhp{
+    position: relative;
+    top: 200px;
+}
+.amps {
+    position: relative;
+    top: 200px;
 }
