@@ -1,128 +1,102 @@
-.ampic {
-    width: 200px;
-    height: 250px;
-    
-  }
+
+.hptext{
+  text-align: center;
+  padding-top: 300px;
+}
+
+.hplinks{
+  padding-top: 70px;
+}
+.amtext{
+  margin-right: 50px;
+}
+.restext{
+  margin-right: 50px;
+}
+.reftext{
+  margin-right: 50px;
+}
+.acttext{
+  margin-right: 50px;
+}
+.contactme{
+  margin-right: 100px;
+}
+
+
+/*Nav Menu CSS*/
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.navbar {
+  overflow: hidden;
+  padding-top: 50px;
+  padding-left: 30px;
+  /*background-color: #333;*/
+}
+
+.navbar a {
+  float: left;
+  font-size: 16px;
+  color: black;
   
-  .respic {
-    width: 200px;
-    height: 250px;
-    position: absolute;
-    left: 190px;
-    top: 450px;
-    border: 1px solid #555;
-    z-index: -1;
-  }
-  .refpic{
-    width: 200px;
-    height: 250px;
-    position: absolute;
-    top: 650px;
-    border: 1px solid #555;
-    z-index: -1;
-  }
-  
-  
-  .actpic{
-    width: 200px;
-    height: 250px;
-    position: absolute;
-    left: 210px;
-    top: 700px;
-    border: 1px solid #555;
-    z-index: -1;
-  }
-
-  /* text spacing */
-
-  .amtext {
-      position: relative;
-      left: 60px;
-      top: 30px;
-  }
-  .restext {
-    position: relative;
-    left: 260px;
-    top: -220px;
-}
-.reftext {
-    position: relative;
-    left: 60px;
-    
-}
-.acttext {
-    position: relative;
-    left: 260px;
-    top: -1px;
-}
-/* about me section on homepage */
-.amhp{
-    position: relative;
-    top: 200px;
-}
-.amps {
-    position: relative;
-    top: 200px;
+  padding: 14px 16px;
+  text-decoration: none;
 }
 
+.dropdown {
+  float: left;
+  overflow: hidden;
+}
 
-/* Small devices (portrait tablets and large phones, 600px and up) */
-@media only screen and (min-width: 600px) {
+.dropdown .dropbtn {
+  font-size: 16px;  
+  border: none;
+  outline: none;
+  color: black;
+  padding: 14px 16px;
+  background-color: inherit;
+  font-family: inherit;
+  margin: 0;
+}
 
-  .profilepic {
-    width: 500px;
-    height: 650px;
-  }  
+/*Removed the red color from the navbar*/
+.navbar a:hover, .dropdown:hover .dropbtn {
+  /*background-color: red;*/
+}
 
-  /* img{
-    width: 600px;
-    height: 750px;
-  } */
-
-.fourImages {
+.dropdown-content {
+  display: none;
   position: absolute;
-  left: 600px;
-  top:-300px;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
 }
-  
-  .ampic {
-        width: 200px;
-        height: 250px;
-        position: absolute;
-        left: -1px;
-        top: 450px;
-        z-index: -1;
-      }
-      
-      .respic {
-        width: 200px;
-        height: 250px;
-        position: absolute;
-        left: 190px;
-        top: 450px;
-        border: 1px solid #555;
-        z-index: -1;
-      }
-      .refpic{
-        width: 200px;
-        height: 250px;
-        position: absolute;
-        top: 650px;
-        border: 1px solid #555;
-        z-index: -1;
-      }
-      
-      
-      .actpic{
-        width: 200px;
-        height: 250px;
-        position: absolute;
-        left: 210px;
-        top: 700px;
-        border: 1px solid #555;
-        z-index: -1;
-      }
 
-
-
+.dropdown-content a {
+  float: none;
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
 }
+
+.dropdown-content a:hover {
+  background-color: #ddd;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+
+
+
+
+ /* Small devices (portrait tablets and large phones, 600px and up)  */
+ /* @media only screen and (min-width: 600px) { 
+ } */
+
