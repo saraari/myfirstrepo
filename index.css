@@ -1,12 +1,38 @@
+.bgimg{
+  background-image: url("images/homepagebg.png");
+  background-size: 100%;
+  background-repeat: no-repeat;
+}
+
+/* .hptext {
+  height: 400px;
+  width: 3000px;
+  background-color: black;
+  opacity: .6;
+  
+} */
 
 .hptext{
   text-align: center;
-  padding-top: 300px;
+  padding-top: 20px;
+  font-size: 30px;
+  font-family: segoe print, serif;
+  font-weight: bold;
+  color: white;
+  height: 300px;
+  width: 100%;
+  background-color: black;
+  opacity: .6;
+ 
 }
+/* .imadev{
+  padding-bottom: 10%;
+} */
 
-.hplinks{
+/* .hplinks{
   padding-top: 70px;
-}
+  font-weight: bold;
+} */
 .amtext{
   margin-right: 50px;
 }
@@ -32,13 +58,17 @@ body {
 .navbar {
   overflow: hidden;
   padding-top: 50px;
-  padding-left: 30px;
+  padding-left: 30px;;
+  font-weight: bold;
+  padding-bottom: 4%;
+  font-family: segoe print, serif;
+
   /*background-color: #333;*/
 }
 
 .navbar a {
   float: left;
-  font-size: 16px;
+  font-size: 25px;
   color: black;
   
   padding: 14px 16px;
@@ -50,8 +80,11 @@ body {
   overflow: hidden;
 }
 
+/* this formats the contact me dop down */
+
 .dropdown .dropbtn {
-  font-size: 16px;  
+  font-size: 25px;  
+  font-weight: bold;
   border: none;
   outline: none;
   color: black;
@@ -93,10 +126,9 @@ body {
 }
 
 
-
-
-
  /* Small devices (portrait tablets and large phones, 600px and up)  */
- /* @media only screen and (min-width: 600px) { 
- } */
-
+ @media only screen and (min-width: 300px) { 
+   .hptext{
+     padding-right: 80px;
+   }
+ }  
