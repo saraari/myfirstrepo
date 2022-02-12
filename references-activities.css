@@ -1,0 +1,62 @@
+.bgimg{
+    background-image: url("images/brickwallactivities.jpg");
+}
+h1{
+    color:papayawhip; 
+    font-family: Lucida Handwriting;
+    font-size: 40px;
+    margin-bottom: 50px;
+}
+.article1{
+    color: papayawhip;
+    padding-right: 0px;
+    font-family: Trebuchet MS;
+    font-weight: bold;
+}
+h2{
+    font-family: Lucida Handwriting;
+}
+h3{
+    font-family: Lucida Handwriting;
+}
+.dbpic1{
+    max-width: 50%;
+    padding-right: 5px;
+}
+.dbpic2{
+    max-width: 120%;
+    height:135px;
+}
+.climbpic1{
+    max-width: 85%;
+    height:150px;
+    padding-right: 5px;
+}
+.climbpic2{
+    max-width: 100%;
+    height:150px;
+}
+.lcpic1{
+    max-width: 100%;
+    height:auto;
+}
+.lcpic2{
+    max-width: 77%;
+    height:auto;
+}
+.bppic1{
+    max-width: 77%;
+    height:auto;
+}
+.bppic2{
+    max-width: 101%;
+    height:auto;
+}
+.sjpic1{
+    max-width: 77%;
+    height:auto;
+}
+.sjpic2{
+    max-width: 77%;
+    height:auto;
+}
