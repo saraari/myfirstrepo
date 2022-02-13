@@ -1,3 +1,4 @@
+
 .bgimg{
   background-image: url("images/homepagebg-min.png");
   background-size: 100%;
@@ -14,7 +15,7 @@
 
 .hptext{
   text-align: center;
-  padding-top: 20px;
+  /* padding-top: 20px; */
   font-size: 30px;
   font-family: segoe print, serif;
   font-weight: bold;
@@ -23,30 +24,34 @@
   width: 100%;
   background-color: black;
   opacity: .6;
- 
 }
 /* .imadev{
   padding-bottom: 10%;
 } */
-
-/* .hplinks{
+/* 
+.hplinks{
   padding-top: 70px;
   font-weight: bold;
-} */
+}  */
 .amtext{
-  margin-right: 50px;
+  padding-left: 20px;
+  margin-right: 100px;
+  font-weight: bold;
 }
 .restext{
   margin-right: 50px;
+  font-weight: bold;
 }
 .reftext{
-  margin-right: 50px;
+  margin-right: 100px;
+  font-weight: bold;
 }
 .acttext{
-  margin-right: 50px;
+  margin-right: 100px;
+  font-weight: bold;
 }
 .contactme{
-  margin-right: 100px;
+  margin-right: 130px;
 }
 
 
@@ -58,19 +63,17 @@ body {
 .navbar {
   overflow: hidden;
   padding-top: 50px;
-  padding-left: 30px;;
+  padding-left: 30px;
   font-weight: bold;
   padding-bottom: 4%;
   font-family: segoe print, serif;
-
   /*background-color: #333;*/
 }
 
 .navbar a {
   float: left;
-  font-size: 25px;
+  font-size: 3em;
   color: black;
-  
   padding: 14px 16px;
   text-decoration: none;
 }
@@ -83,8 +86,8 @@ body {
 /* this formats the contact me dop down */
 
 .dropdown .dropbtn {
-  font-size: 25px;  
-  font-weight: bold;
+  font-size: 3em;  
+font-weight: bold;
   border: none;
   outline: none;
   color: black;
@@ -95,9 +98,9 @@ body {
 }
 
 /*Removed the red color from the navbar*/
-.navbar a:hover, .dropdown:hover .dropbtn {
-  /*background-color: red;*/
-}
+/* .navbar a:hover, .dropdown:hover .dropbtn {} */
+  /*background-color: red;*/ 
+
 
 .dropdown-content {
   display: none;
@@ -125,36 +128,88 @@ body {
   display: block;
 }
 
+/* media query for homepage */
+@media only screen and (max-width: 600px){ 
 
+  .bgimg{
+  background-image: url("images/mobilehp.jpg");
+  background-size: 100%;
+  background-repeat: no-repeat;
+  /* padding-top: 10px; */
+  }
+  
+  .amtext{
+    margin-right: 28px;
+  }
+  .restext{
+    margin-right: 25px;
+  }
+  .reftext{
+    margin-right: 50px;
+  }
+  .acttext{
+    margin-right: 50px;
+  }
+  .contactme{
+    margin-right: 50px;
+  }
+
+.hptext {
+  text-align: center;
+  font-size: 1em;
+  font-family: segoe print, serif;
+  font-weight: bold;
+  color: white;
+  height: 10%;
+  width: 100%;
+  background-color: black;
+  opacity: .6;
+ }
+
+ .saraNameText {
+  font-family: segoe print, serif;
+  font-size: 1.5em;
+  color: #ddd;
+ }
+
+.navbar {
+  font-size: .3em;
+  padding-top: 1em;
+  padding-left: 1em;
+  font-weight: normal;
+}
 
 /* about me page */
-
 .bgam{
   background-color: rgb(250, 250, 215);
   font-family: cambria, serif;
   font-weight: bold;
 }
 .ampic1{
-  width: 55%;
+  width: 30%;
   height:auto;
   /* padding-left: 22%; */
 }
 .home{
   font-size: 200%;
-  font-family: gabriola;
+  font-family:gabriola;
 }
-  .amtext{
-    font-family: gabriola;
-    color: rgb(75, 3, 75);
-  }
+  
 
 .article1{
   color: rgb(51, 47, 47);
+  font-family: cambria;
 }
-h2 {
+.aboutMe{
+  font-family: gabriola;
+  color: rgb(75, 3, 75);
+  font-size: 50px;
+}
+.secondaryHeadings {
   font-family: gabriola;
   color: rgb(75, 3, 75);
   font-size: 30px;
+}
 }
 
 /* hamburger menu css */
@@ -176,30 +231,43 @@ h2 {
 
 
 /* about me page media query for desktop */
-
- @media only screen and (min-width: 768px) { 
+@media only screen and (min-width: 768px) { 
    
   .home{
-    
+    font-family: gabriola;
     font-size: 50px;
   }
+
+
+  .bgam{
+    font-family: cambria, serif;
+    font-weight: bold;
+  }
+  
   .ampic1 {
-    width:25%;
+    width:20%;
     float:left;
     padding-left: 0%;
   }
-  .amtext{
-    font-size: 80px;
-  }
+
+  .aboutMe{
+    font-size: 5em;
+    font-family: gabriola;
+    color: rgb(75, 3, 75);
+  } 
+  
   .p1p2{
     font-size: 30px;
   }
 
 .article1 {
   width:100%;
-  font-size: 25px;
+  font-size: 30px;
 }
-h2{
-  font-size: 40px;
+.secondaryHeadings{
+  color: rgb(75, 3, 75);
+  font-size: 2em;
+  font-family: gabriola;
+} 
+
 }
- }
