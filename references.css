@@ -1,0 +1,79 @@
+
+.bgimgref{
+    /* background-image: url("images/referencesbg.jpg");
+    width: auto;
+    height: auto; */
+    /* background-color: rgb(247, 247, 242); */
+
+}
+.topnav #myLinks {
+    display: none;
+  }
+  .topnav a {
+    color: rgb(117, 116, 116);
+    padding: 0px 0px;
+    text-decoration: none;
+    font-size: 30px;
+  }
+  
+  .topnav a.icon {
+    background: white;
+  }
+  .homeref{
+      color: rgb(228, 72, 72);
+      font-size: 15px;
+      font-family: georgia;
+      font-weight: bold;
+  }
+  .refsec{
+      font-size: 12px;
+      font-family: Georgia, 'Times New Roman', Times, serif;
+      font-weight: bold;
+      } 
+      .pr{
+          font-family: Georgia, 'Times New Roman', Times, serif;
+          color: rgb(117, 116, 116);
+          font-size: 20px;
+      }
+      .robbietext{
+        
+      }
+      .robbieimg{
+width: 70%;
+height: auto;
+      }
+  
+      /* *****desktop media query***** */
+      @media only screen and (min-width: 768px) {
+
+        .topnav a {
+            color: rgb(117, 116, 116);
+            padding: 0px 0px;
+            text-decoration: none;
+            font-size: 60px;
+          }
+
+          .homeref{
+            color: rgb(228, 72, 72);
+            font-size: 35px;
+            font-family: georgia;
+            font-weight: bold;
+        }
+        .pr{
+            font-family: Georgia, 'Times New Roman', Times, serif;
+            color: rgb(117, 116, 116);
+            font-size: 70px;
+            text-align: center;
+            margin-bottom: 120px;
+        }
+        .refsec{
+            font-size: 22px;
+            font-family: Georgia, 'Times New Roman', Times, serif;
+            font-weight: bold;
+            } 
+            .robbieimg{
+                width: 40%;
+                height: auto;
+                      }
+
+      }

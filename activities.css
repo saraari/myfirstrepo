@@ -4,7 +4,7 @@
 .home{
     color: blue;
     font-family: Lucida Handwriting;
-    font-size: 25px;
+    font-size: 35px;
 }
 h1{
     color:papayawhip; 
@@ -124,5 +124,9 @@ h3{
     max-width: 40%;
     height:auto;
 }
+.pfont{
+    font-size: 30px;
+}
 
 }
+

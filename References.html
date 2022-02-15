@@ -4,9 +4,73 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="stylesheet" href="references.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>References</title>
 </head>
-<body>
+<body class="bgimgref">
     
+    <a class="homeref" href="index.html">Home</a>
+    <div> </div>
+
+    <!-- <div>hamburger menu</div> -->
+    <div class="topnav">
+        <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+            <i class="fa fa-bars fa-xs"></i>
+          </a>
+          <div> </div>
+          <div id="myLinks">
+            <a target="_blank" href="images/SSofficialresume2022.pdf">Resume</a>
+            <div> </div>
+            <a href="aboutme.html">About Me</a>
+            <div> </div>
+      <a href="Activities.html">Activities</a>
+          </div>
+         
+        </div>
+        
+        
+        <script>
+        function myFunction() {
+          var x = document.getElementById("myLinks");
+          if (x.style.display === "block") {
+            x.style.display = "none";
+          } else {
+            x.style.display = "block";
+          }
+        }
+        </script>
+
+        <h1 class="pr">Professional References</h1>
+        <article class="refsec">
+            <section class="robbietext">
+        <div>Robbie Siadek</div>
+        <div>Implementation Services Manager</div>
+        <div>Ryan LLC</div>
+        <div>robbie.siadekii@gmail.com</div>
+        <div>682-321-2273</div>
+        <p>
+            Robbie was my direct Manager for several years at Liberty Software.
+        </p>
+        <p>
+            Please click on letter of recommendation below
+        </p>
+        <p><a target="_blank" href="images/SaraSosaLetterofRecommendation.pdf">
+            <img class="robbieimg" src="images/robbielor.PNG" alt="X">
+            </a></p>
+        </section>
+        <section>
+        <div>Philip Wilson</div>
+        <div>Director of IT</div>
+        <div>Tanglewood Resort</div>
+        <div>phil@tanglewoodresort.com</div>
+        <div>817-412-8104</div>
+        <p>Phil was a senior member of the techincal implementation and training team at Liberty Software.</p>
+        <p>Please click on letter of recommendation below</p>
+        <p class="robbieimg"><a target="_blank" href="images/phillorpdf.pdf">
+            <img class="robbieimg" src="images/phillor.PNG" alt="X">
+            </a></p>
+        </section>
+        </article>
 </body>
 </html>
