@@ -1,0 +1,165 @@
+ .background{
+    height: 100%;
+background-image: linear-gradient(
+    to top,
+    rgb(15, 15, 85) 0%,
+      rgb(15,15,85) 80%,
+      rgb(141, 32, 32) 80%,
+      rgb(141,32,32) 82%,
+      rgb(199, 197, 197) 82%,
+    rgb(199, 197, 197) 100%
+);  
+}
+
+.rph1{
+    width: 28%;
+    height: 435px;
+float: left;
+}
+.rph2{
+    float: right;
+    width: 28%;
+    height: 435px;
+}
+.mainq1{
+    padding-top: 30px;
+    /* padding-left: 6.5em; */
+    text-align: center;
+    color: white;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+font-weight:lighter;
+    font-size: 45px;
+    /* position:fixed;
+  top:0; */
+}
+.mainq2{
+   text-align: center;
+    color: white;
+    font-family: sans-serif;
+    font-size:x-small;
+    font-size: 45px;
+}
+.mainq3{
+    text-align: center;
+    padding-bottom: 40px;
+    color: white;
+    font-family: sans-serif;
+    font-weight: bold;
+    font-size: 50px;
+}
+.libpic{
+    width: 42%;
+    height: 435px;
+    padding-left: 19px;
+    padding-bottom: 40px;
+}
+.wkstnsec{
+    padding-left: 50px;
+    width: 600px; float: left;
+}
+.wkstnimg{
+    padding-left: 150px;
+}
+.p1{
+    
+    color: white;
+    font-size: 33px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+.csrsec{
+    padding-top: 50px;
+    padding-left: 350px;
+    margin-left: 620px;
+}
+.csrimg{
+    width: 25%;
+    height: auto;
+    padding-left: 300px;
+}
+.p2{
+    color: white;
+    font-size: 33px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+/* this starts the second four black section */
+
+.wfsec{
+    padding-top: 50px;
+    padding-left: 50px;
+    width: 600px; float: left;
+}
+.wfimg{
+    padding-left: 150px;
+}
+.p3{
+    
+    color: white;
+    font-size: 33px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+
+}
+.pssec{
+    padding-top: 50px;
+    padding-left: 350px;
+    margin-left: 620px;
+    padding-bottom: 130px;
+}
+.psimg{
+    width: 25%;
+    height: auto;
+    padding-left: 300px;
+}
+.p4{
+    color: white;
+    font-size: 33px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.fh1{
+    text-align: center;
+    font-size: 50px;
+    color: rgb(199, 197, 197);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: normal;
+}
+.fh2{
+text-align: center;
+font-size: 50px;
+color: rgb(199, 197, 197);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: normal;
+}
+/* starts the submit form */
+.txtf{
+    margin-bottom: 10px;
+    width: 900px;
+    height: 50px;
+    font-size: 30px;
+    border-width: 5px;
+    border-color: gray;
+}
+.notes{
+    width: 900px;
+    height: 100px;
+    font-size: 30px;
+    border-width: 5px;
+    border-color: gray;
+    margin-bottom: 10px;
+
+}
+.submit{
+width: 200px;
+height: 35px;
+font-size: 25px;
+border-width: 5px;
+border-color: gray;
+}
+.submit:hover{
+    background-color: rgb(73, 73, 73);
+    color: white;
+}
+.form{
+    text-align: center;
+    background-image: url("images/libertyhoneycomb.jpg";
+    mask-image: linear-gradient(to bottom, rgba(0, 0, 0, 1.0) 50%, transparent 100%);
+}
